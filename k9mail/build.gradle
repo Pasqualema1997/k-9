@@ -56,9 +56,13 @@ android {
         versionName '5.300-SNAPSHOT'
 
         minSdkVersion 15
+<<<<<<< HEAD
         targetSdkVersion 22
 
         generatedDensities = ['mdpi', 'hdpi', 'xhdpi']
+=======
+        targetSdkVersion 21
+>>>>>>> k9mail/material_design
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
